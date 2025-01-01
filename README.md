@@ -42,8 +42,8 @@ Here’s a detailed explanation of each columns in the loan_applications.csv <br
 `Success`: A binary indicator where:<br>
 0 = Loan application was rejected.<br>
 1 = Loan application was approved.<br><br>
-    #### Key Observations of loan_applications.csv:<br>
-    - The dataset has loan applications submitted by various applicants.<br>
-    - The success of the loan application is indicated in the Success column.<br>
-    - There is a mix of employment types (full-time, self-employed, part-time) and loan purposes (mostly car-related).<br>
-    - The loan amounts and terms vary, allowing for analysis of how these factors impact loan success.<br>
+#### Key Observations of loan_applications.csv:<br>
+- The dataset has loan applications submitted by various applicants.<br>
+- The success of the loan application is indicated in the Success column.<br>
+- There is a mix of employment types (full-time, self-employed, part-time) and loan purposes (mostly car-related).<br>
+- The loan amounts and terms vary, allowing for analysis of how these factors impact loan success.<br>
