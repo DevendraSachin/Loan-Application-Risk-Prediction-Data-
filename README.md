@@ -9,7 +9,9 @@ This dataset tells the story of people applying for loans in 2020, with some get
 `credit_features_subset.csv`: Credit file details associated with applicants.<br>
 `loan_data_dictionary.csv`: Data dictionary explaining feature columns.<br>
 
-###**Loan_Applications Datasets**: <br>Here’s a detailed explanation of each columns in the credit_features_subset.csv <br>
+### Loan_Applications Datasets:
+Here’s a detailed explanation of each columns in the credit_features_subset.csv <br>
+
 `UID` : This is a unique identifier for each loan applicant. Each row has a different UID.<br>
 `ALL_AgeOfOldestAccount`: The age of the applicant's oldest credit account in months. It indicates how long they have had their oldest account.<br>
 `ALL_AgeOfYoungestAccount`: The age (in months) of the most recently opened account. It shows how recent the applicant's newest credit account is.<br>
