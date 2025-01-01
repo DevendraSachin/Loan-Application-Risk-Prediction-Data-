@@ -9,7 +9,7 @@ This dataset tells the story of people applying for loans in 2020, with some get
 `credit_features_subset.csv`: Credit file details associated with applicants.<br>
 `loan_data_dictionary.csv`: Data dictionary explaining feature columns.<br>
 
-### Loan_Applications Datasets:
+### credit_features_subset:
 Here’s a detailed explanation of each columns in the credit_features_subset.csv <br>
 
 `UID` : This is a unique identifier for each loan applicant. Each row has a different UID.<br>
@@ -29,3 +29,21 @@ Here’s a detailed explanation of each columns in the credit_features_subset.cs
 
 `ALL_WorstPaymentStatusActiveAccounts`: This represents the worst payment status across active accounts (e.g., missed payments). Higher values suggest worse payment behavior, with 0 meaning no missed payments and higher values indicating varying levels of delinquencies.<br>
 **Example**: 7 (severe payment problems), 0 (no missed payments).
+
+
+### Loan_Applications Datasets:
+Here’s a detailed explanation of each columns in the loan_applications.csv <br>
+`UID`: A unique identifier for each loan application.<br>
+`ApplicationDate`: The date the loan application was submitted.<br>
+`Amount`: The loan amount requested by the applicant.<br>
+`Term`: The loan term, typically in months.<br>
+`EmploymentType`: The employment status of the applicant (e.g., Employed full-time, Self-employed, Employed part-time).<br>
+`LoanPurpose`: The reason the applicant is requesting the loan (e.g., Car, New car, Car repairs, Unexpected bills, etc.).<br>
+`Success`: A binary indicator where:<br>
+0 = Loan application was rejected.<br>
+1 = Loan application was approved.<br><br>
+    #### Key Observations of loan_applications.csv:<br>
+    - The dataset has loan applications submitted by various applicants.<br>
+    - The success of the loan application is indicated in the Success column.<br>
+    - There is a mix of employment types (full-time, self-employed, part-time) and loan purposes (mostly car-related).<br>
+    - The loan amounts and terms vary, allowing for analysis of how these factors impact loan success.<br>
